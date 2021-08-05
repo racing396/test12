@@ -1,0 +1,93 @@
+<html>
+
+
+<body>  
+今天的天氣真好<br>
+今天的天氣真好<p>
+<h1><font size="6" color="red">我們約明天一起出去玩1</font></h1>
+<h2>我們約明天一起出去玩2</h2>
+<h3>我們約明天一起出去玩3</h3>
+<h4>我們約明天一起出去玩4</h4>
+<h5>我們約明天一起出去玩5</h5>
+<h6>我們約明天一起出去玩6</h6>
+
+<!-- 項目，選單 -->
+<ul>
+<li>關於明道
+	<ul>
+		<li>a
+		<li>b
+	</ul>
+<li>行政單位
+<li>教學單位
+</ul>
+
+<!-- 文字超連結--> 
+<a href="http://www.mdu.edu.tw/">明道大學</a><p>
+<!-- 貼圖-->
+<img width="20%" src="123.png"><p>
+<!-- 圖片超連結-->
+<a href="http://www.mdu.edu.tw/">  <img width="200px" src="123.png"> </a><p>
+
+<!-- 表格元件-->
+<table border="3">
+<tr height="40px"> <th width="100px">水果1 </th> <th width="100px"> 水果2</th>
+   <th width="100px">水果3 </th> <th width="100px"> 水果4</th></tr>
+<tr height="40px"> <td rowspan="2">蘋果1 </td> <td colspan="2"> 梨子2 蘋果 </td> 
+   <td> 梨子</td></tr>
+<tr height="40px"> <td> 梨子</td><td>蘋果 </td> <td> 梨子</td></tr>
+</table>
+
+<!-- 網頁資料輸入起始點-->
+<form action="程式名" (method="POST" xor method="GET")> 
+
+<!-- 單行輸入-->	
+輸入姓名: <input type=text size="50" name="uName"> <p>
+
+<!-- 多行輸入-->	
+心得: <br><textarea cols=60 rows=6 name="mathReport"> </textarea>
+<p>
+
+<!-- 單選項目--> 
+您的最高學歷 :
+<select name="education">
+<option value="1">國小
+<option value="2">國中
+<option value="3">高中職
+<option value="4" selected>大學/科大
+<option value="5">研究所
+<option value="6">博士班
+</select>
+<p>
+
+<!-- 單選，可群組項目--> 
+<INPUT type=radio value="11" checked name=job1>金融
+<INPUT type=radio value="12" name=job1>保險
+<INPUT type=radio value="21" checked name=job2>資訊
+<INPUT type=radio value="22" name=job2>製造
+<INPUT type=radio value="31" name=job>運輸
+<INPUT type=radio value="32" checked name=job>服務
+<INPUT type=radio value="33" name=job>貿易
+<INPUT type=radio value="34" name=job>出版
+<p>
+
+<!-- 多選項目--> 
+<INPUT type=checkbox checked name=interest1>網站管理員
+<INPUT type=checkbox name=interest2>網站排名專家
+<INPUT type=checkbox name=interest3>補教業
+<INPUT type=checkbox name=interest4>行銷業務
+<INPUT type=checkbox name=interest5>房仲業務
+<p>
+<!-- 自訂按鈕-->	
+<input type=button onclick="程式" value="自訂功能">	
+<!-- reset內定功能-->	
+<input type=reset value="還原">
+<!-- 資料打包內定功能-->	
+<input type=submit value="送出"> 
+</form>
+
+
+</body>
+</html>
+
+
